@@ -1,7 +1,7 @@
 
 /* Import Java Libraries */
-/* Member : Tongjit Karawapornphut G01221230
- * Jacqueline Garcia G01186986
+/* 
+ * 
  */
 import java.io.*;
 import java.util.*;
