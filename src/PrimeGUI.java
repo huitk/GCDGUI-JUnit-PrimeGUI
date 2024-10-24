@@ -69,7 +69,6 @@ public class PrimeGUI extends JPanel
 		questionLabel.setFont(quizMidFont);
 		inputNumberLabel.setFont(quizMidFont);
 		add5Label.setFont(quizSmallFont);
-//		subtract5Label.setFont(quizSmallFont);
 		answerLabel.setFont(quizBigFont);
 		nextNumberLabel.setFont(quizSmallFont);
 		inputTextField.setFont(quizMidFont);
@@ -111,8 +110,8 @@ public class PrimeGUI extends JPanel
 		 //*** The method writeToFile() is called from the constructor.
 		 //*** One could call a read method from the constructor.
 		
-	//	writeToFile();
-	}// constructor
+	
+	}
 	
 	 //*** This method writes 4 lines to a file.  Eclipse puts the file in
 	 //*** the folder of the project but not in the src folder.  Put any
