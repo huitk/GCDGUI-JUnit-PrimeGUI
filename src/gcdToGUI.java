@@ -31,16 +31,11 @@ JPanel titlePanel = new JPanel();
 JPanel firstValInputPanel = new JPanel();
 JPanel secondValInputPanel = new JPanel();
 JPanel resultAnswerPanel = new JPanel();
-
-
-//JPanel resultPanel = new JPanel();
 JPanel OperationLCMPanel = new JPanel();
-//static String OperationGCD = "GCD";
 JPanel OperationGCDPanel = new JPanel();
 JPanel resetPanel = new JPanel();
 JPanel clearFormPanel = new JPanel();
 JPanel errorPanel = new JPanel();
-//JPanel primeOrAbundantPanel = new JPanel();
 JPanel primeOrAbundantAnswerPanel = new JPanel();
 JPanel primeOrAbundantPanel = new JPanel();
 
@@ -48,15 +43,12 @@ JPanel primeOrAbundantPanel = new JPanel();
 JLabel titleLabel = new JLabel();
 JLabel firstValInputLabel = new JLabel();
 JLabel secondValInputLabel = new JLabel();
-JLabel resultAnswerLabel = new JLabel();
-
-//JLabel resultLabel = new JLabel();  
+JLabel resultAnswerLabel = new JLabel();  
 JLabel OperationLCMLabel = new JLabel();
 JLabel OperationGCDLabel = new JLabel();
 JLabel resetLabel = new JLabel();
 JLabel clearFormLabel = new JLabel();
 JLabel errorLabel = new JLabel();
-//JLabel primeOrAbundantLabel = new JLabel();
 JLabel primeOrAbundantAnswerLabel = new JLabel();
 JLabel primeOrAbundantLabel = new JLabel();
 
@@ -66,7 +58,6 @@ JButton OperationGCDButton = new JButton();
 
 JButton resetButton = new JButton();
 JButton clearFormButton = new JButton();
-//JButton primeOrAbundantButton = new JButton();
 JButton primeOrAbundantButton = new JButton();
 
 /* Create text field variable and size */
@@ -89,7 +80,6 @@ public gcdToGUI () {
 	resetPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
 	clearFormPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
 	errorPanel.setLayout(new FlowLayout(FlowLayout.CENTER));
-	//primeOrAbundantPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
 	primeOrAbundantAnswerPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
 	primeOrAbundantPanel.setLayout(new FlowLayout(FlowLayout.LEFT));
 	/* Set font and size */
@@ -107,7 +97,6 @@ public gcdToGUI () {
 	resetLabel.setFont(smallFont);
 	clearFormLabel.setFont(smallFont);
 	errorLabel.setFont(redSmallFont);
-	//primeOrAbundantLabel.setFont(smallFont);
 	primeOrAbundantAnswerLabel.setFont(smallFont);
 	primeOrAbundantLabel.setFont(smallFont);
 	
@@ -130,7 +119,6 @@ public gcdToGUI () {
 	OperationGCDButton.setText("GCD");
 	resetButton.setText("Reset");
 	clearFormButton.setText("Clear Form");
-	//primeOrAbundantButton.setText("Prime or Abandant");
 	primeOrAbundantButton.setText("Prime or abundant");
 	
 	
@@ -274,11 +262,7 @@ class clearFormButton implements ActionListener {
 		Integer num1 = 0;
 		Integer num2 = 0;
 		passClearFormButton(num1, num2);
-	/*		inputTextField1.setText(""); //erases the values of first val in JTextField
-			inputTextField2.setText(""); //erases the value of second val in JTextField
-			inputTextAnswer.setText(""); //erase the value of result in JTextField 
-			primeAbundantTextAnswer.setText("");
-	*/
+	
 	}
 		
 }
@@ -298,9 +282,6 @@ public void passClearFormButton(Integer num1, Integer num2) {
 class resetButton implements ActionListener {
 	public void actionPerformed(ActionEvent e) {
 		
-			//inputTextField1.setText("9");
-			//inputTextField2.setText("9"); 
-			//inputTextAnswer.setText("9"); 
 	}
 }
 
